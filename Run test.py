@@ -114,7 +114,7 @@ def main():
     # labels = [d.split('\n')[0] for d in l]
 
     # ------------------------- Read test data from txt ------------------------------
-    words = read_input(path='testset_real/input.txt')
+    words = read_input(path='Test set/input.txt')
     # ------------------- Extract word vectors -------------------------
     word_vectors = extract_word_vectors(words=words,max_sentence_length=93)
     # -------------------------- Evaluation-----------------------------
